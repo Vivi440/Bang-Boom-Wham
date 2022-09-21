@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Piso
+    uniqueID: 2499241465
+    locked: 0
+  - name: Fondo
+    uniqueID: 1604592883
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Arriba
+    uniqueID: 2534060487
     locked: 0
