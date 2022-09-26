@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -7012435146814700070}
   - component: {fileID: 5384154615929154275}
   - component: {fileID: -8450235056963641051}
+  - component: {fileID: 6741738076469132027}
   m_Layer: 0
   m_Name: sprite.enemigo.3
   m_TagString: Untagged
@@ -149,6 +150,20 @@ MonoBehaviour:
   speed: 3
   stoppingDistance: 5
   retreatDistance: 5.2
-  startTimeBtwShots: 6
+  startTimeBtwShots: 10
   projectile: {fileID: 6519958955623900344, guid: bd9a6de739a93d5468483ea4aa98ffe2, type: 3}
-  player: {fileID: 0}
+  player: {fileID: 3023553254189424607, guid: 5aec0e635241c8e4fb29e0d00793f20a, type: 3}
+--- !u!114 &6741738076469132027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6081553622954827097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8abdfa753c29448904d5c62f80486e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
+  maxHealth: 1

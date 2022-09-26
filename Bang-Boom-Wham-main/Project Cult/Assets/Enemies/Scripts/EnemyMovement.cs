@@ -9,6 +9,7 @@ public class EnemyMovement : MonoBehaviour
     private float moveSpeed;
     private Vector3 directionToPlayer;
     public Transform Player;
+    private Vector2 movement;
 
 
     void Start()
@@ -34,6 +35,9 @@ public class EnemyMovement : MonoBehaviour
         Vector3 direction = Player.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         rb.rotation = angle;
+        direction.Normalize();
+        movement = direction;
+        
     }
 
     void moveCharacter(Vector2 direction)

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -1501310022845818496}
   - component: {fileID: 4699494761973168424}
   - component: {fileID: -8137365327627292289}
-  - component: {fileID: -2975988693294450214}
+  - component: {fileID: 2911748623961372129}
   m_Layer: 0
   m_Name: projectile
   m_TagString: projectile
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d6acdd09277d3240af2a4b20b59ee73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
 --- !u!50 &4699494761973168424
 Rigidbody2D:
   serializedVersion: 4
@@ -148,7 +148,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.07802928, y: 0.5522916}
   m_EdgeRadius: 0
---- !u!114 &-2975988693294450214
+--- !u!114 &2911748623961372129
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,6 +157,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6519958955623900344}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1d3a9a678f7e554eba7d0c55a8c050a, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d3278c88ec5df74ea7f0236982ab71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

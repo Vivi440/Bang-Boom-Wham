@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: -1178905064250929754}
   - component: {fileID: -5807077640293193018}
   - component: {fileID: 7698882010658298122}
-  - component: {fileID: 1654320288066085237}
+  - component: {fileID: 1224623638620749129}
+  - component: {fileID: 1766626992}
+  - component: {fileID: 1766626993}
   m_Layer: 0
   m_Name: sprite.enemigo.1
   m_TagString: Untagged
@@ -30,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 268577765424904593}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7471, y: 1.5319, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -148,7 +150,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.50113505, y: 0.5984241}
   m_EdgeRadius: 0
---- !u!114 &1654320288066085237
+--- !u!114 &1224623638620749129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268577765424904593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc4f11ae1ba208842b4b005acb9dc4ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 3023553254189424607, guid: 5aec0e635241c8e4fb29e0d00793f20a, type: 3}
+--- !u!114 &1766626992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268577765424904593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215f2054c9a81da458f22f4702491b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: {fileID: 3023553254189424601, guid: 5aec0e635241c8e4fb29e0d00793f20a, type: 3}
+  damage: 1
+--- !u!114 &1766626993
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,4 +190,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  maxHealth: 3
+  maxHealth: 1
