@@ -15,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         player = FindObjectOfType(typeof(Player)) as Player;
-        moveSpeed = 5f;
+        moveSpeed = 3f;
     } 
 
     private void FixedUpdate()

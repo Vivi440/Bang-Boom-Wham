@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88cf1537606f3684181119508c96c1ae, type: 3}
+  m_Name: Wave Four
+  m_EditorClassIdentifier: 
+  <EnemiesInWave>k__BackingField:
+  - {fileID: 268577765424904593, guid: e8a5b7d25fdb42743b9f12af80fde073, type: 3}
+  - {fileID: 1725890058844919091, guid: 6d9c6ea23b7bd58488e9a5df07bad42a, type: 3}
+  - {fileID: 6081553622954827097, guid: 3cf6070129bfd4245bf57d9c5f86842c, type: 3}
+  <TimeBeforeThisWave>k__BackingField: 120
+  <NumberToSpawn>k__BackingField: 80
